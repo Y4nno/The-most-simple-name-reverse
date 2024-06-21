@@ -17,7 +17,7 @@ int main(){
 
 void Naming(char* name){
 
-    int size = sizeof(name);
+    int size = strlen(name);
 
     for(int i = 0;  i <= size; i++){
         printf("%c ", name[size - i]);
